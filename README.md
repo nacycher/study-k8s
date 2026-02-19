@@ -21,3 +21,25 @@ API server，master内部组件负责调度node，工作节点
 - node,工作节点
 ![img_2.png](img_2.png)
 
+## 04-k8s核心概念
+### pod
+![img_3.png](img_3.png)
+### controller
+- 确保pod预期的pod数量
+- 无状态部署
+- 有状态部署，需要有特定条件，存储、网络等
+- 确保所有node执行同一个pod
+- 一次性任务和定时任务
+
+## 05-搭建k8s集群
+可以搭建多master或单master节点
+![img_4.png](img_4.png)
+![img_5.png](img_5.png)
+
+### 配置要求
+![img_6.png](img_6.png)
+
+### 搭建方式
+kubeadm、二进制包
+
+## 06-虚拟机安装操作系统和初始化
